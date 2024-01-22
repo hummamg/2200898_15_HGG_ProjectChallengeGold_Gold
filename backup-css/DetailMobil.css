@@ -1,0 +1,70 @@
+.detailContainer {
+    margin: 102px 199px 152px;
+    gap: 32px;
+    display: flex;
+    flex-direction: row;
+}
+
+.paketContainer {
+    width: 605px;
+    height: 618px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #8A8A8A;
+}
+
+.paketTitle {
+    display : flex;
+    justify-content : space-between;
+    margin: 24px 24px 0;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.paketText {
+    width: 557px;
+    margin: 0 24px 24px;
+    color: #8A8A8A;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24.5px;
+}
+
+.carContainer {
+    width: 405px;
+    height: 435px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #8A8A8A;
+}
+
+.carImage {
+    margin: 28px 68px;
+}
+
+.carTitle {
+    padding: 24px 0 2px 24px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.categoryText {
+    color: #8A8A8A;
+    padding-left: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+.totalPrice {
+    display: flex;
+    justify-content: space-between;
+    padding: 56px 24px 84px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}

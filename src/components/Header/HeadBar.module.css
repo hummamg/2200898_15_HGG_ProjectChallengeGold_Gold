@@ -1,0 +1,117 @@
+/* HEADBAR */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+.header {
+    background-color: #F1F3FF;
+    padding: 0;
+}
+
+.headContainer {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.headNavbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 249px 38px 136px;
+}
+
+.headFrame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headTitle {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    margin: 80px 32px 16px 136px;
+    width: 568px;
+}
+
+.headDesc {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0 132px 16px 136px;
+    width: 468px;
+    text-align: justify;
+}
+
+.headButton {
+    background-color: #5CB85F;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-left: 136px;
+    margin-bottom: 87px;
+    padding: 8px 12px;
+}
+
+.navbarContainer {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+@media only screen and (max-width: 360px) {
+    .header {
+        padding: 0;
+        margin-bottom: 60px;
+    }
+
+    .headNavbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 24px 16px 32px;
+    }
+
+    .headFrame {
+        flex-direction: column;
+    }
+
+    .headTitle {
+        width: 328px;
+        margin: 32px 16px 0;
+        padding: 0;
+    }
+
+    .headDesc {
+        width: 328px;
+        margin: 16px;
+        padding: 0;
+    }
+
+    .headButton {
+        margin: 16px 204px 24px 16px;
+    }
+
+    .imgCar {
+        width: 344px;
+        height: 199px;
+        margin-left: 16px;
+    }
+
+    .navbarContainer {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .navbarButtonToggler {
+        padding: 0 !important;
+        border: none !important;
+    }
+}

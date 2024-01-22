@@ -1,0 +1,48 @@
+/* FOOTER */
+
+#footer {
+    background-color: lightcyan;
+    margin: 0 163px 100px 136px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.footerAddress {
+    width: 268px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    
+}
+
+.footerNav {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.footerSosmed {
+    width: 268px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.footerCopy {
+    width: 268px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+@media only screen and (max-width: 360px) {
+    #footer { 
+        margin: 60px 76px 16px 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 16px;
+    }
+}

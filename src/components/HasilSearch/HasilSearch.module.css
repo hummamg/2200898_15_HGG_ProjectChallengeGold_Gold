@@ -1,0 +1,60 @@
+.cardContainer {
+    background-color: lightcyan;
+    margin: 111px 196px 283px;
+    padding: 24px;
+    border: 1px solid;
+}
+
+.cardFrame {
+    border: 1px solid;
+}
+
+.cardList {
+    text-align: center;
+    border: 1px solid;
+    border-color: #D0D0D0;
+}
+
+.cardImage {
+    margin: 31px 0 47px;
+    width: 270px;
+    height: 160px;
+}
+
+.cardTitle {
+    text-align: left;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.cardPrice {
+    text-align: left;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.cardText {
+    text-align: justify;
+    margin-bottom: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.cardButton {
+    background-color: #5CB85F;
+    color: #FFFFFF;
+    padding: 14px 107px;
+    margin: 0 24px 24px;
+    border-radius: 2px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}

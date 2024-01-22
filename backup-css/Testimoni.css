@@ -1,0 +1,104 @@
+/* TESTI */
+
+.testiContainer {
+    background-color: lightcyan;
+    flex-shrink: 0;
+    padding-bottom: 88px;
+    margin-bottom: 142px;
+}
+
+.testiTitle {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+.testiDesc {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.testiFrame {
+    display: flex;
+    padding: 0 400px;
+    margin-bottom: 0;
+}
+
+.testiReview {
+    background-color: #F1F3FF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
+    border: 1px solid;
+}
+
+.testiIcon {
+    width: 80px;
+    height: 80px;
+    margin: 96px 46px;
+}
+
+.testiRate {
+    padding: 69px 0 8px;
+}
+
+.testiText {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 8px;
+    padding: 0 46px 0 0;
+}
+
+.testiDate {
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 20px;
+    padding-bottom: 69px;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    margin: 300px 250px 0;
+}
+
+@media only screen and (max-width: 360px) {
+    .testiContainer { 
+        margin: 0 16px;
+    }
+    .testiDesc {
+        margin-bottom: 16px;
+    }
+    .testiFrame {
+        display: flex;    
+        padding: 0; 
+    }
+    .testiReview {
+        display: flex;
+        flex-direction: column;
+    }
+    .testiIcon {
+        padding: 40px 124px 24px;
+    }
+    .testiRate {
+        padding: 0 124px 24px;
+        margin-bottom: 0;
+    }
+    .testiText {
+        padding: 0 32px 8px;
+        margin-bottom: 0;
+    }
+    .testiDate {
+        padding: 0 32px 68px;
+        margin-bottom: 0;
+    }
+    .carousel-control-prev, .carousel-control-next {
+    margin: 440px 110px 0;
+    }
+}

@@ -1,0 +1,74 @@
+/* WHY-US */
+
+.whyContainer {
+    background-color: lightcyan;
+    flex-shrink: 0;
+    margin: 100px 136px;
+}
+
+.whyTitle {
+   font-size: 24px;
+   font-weight: 700;
+   line-height:36px;
+   padding-bottom: 16px;
+}
+
+.whyDesc {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-bottom: 40px;
+}
+
+.whyList {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.whyFrame { 
+    text-align: justify;
+    flex: 1;
+    border-radius: 8px;
+    border: 1px solid;
+    padding: 24px;
+}
+
+.listIcon {
+    padding-bottom: 16px;
+}
+
+.listTitle {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-bottom: 16px;
+}
+
+.listDesc {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+@media only screen and (max-width: 360px) {
+    .whyContainer {
+        margin: 0 16px;
+    }
+    .whyTitle {
+        display: flex;
+        justify-content: center;
+    }
+    .whyDesc{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 24px;
+    }
+    .whyList {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .whyList:last-child {
+        margin-bottom: 60px;
+    }
+}

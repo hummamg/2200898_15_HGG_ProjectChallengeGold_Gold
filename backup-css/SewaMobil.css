@@ -1,0 +1,55 @@
+/* SEWA */
+
+.sewaContainer {
+    background-color: #0D28A6;
+    flex-shrink: 0;
+    text-align: center;
+    color: white;
+    margin: 0 136px 104px;
+    border-radius: 13px;
+    font-weight: 700;
+}
+
+.sewaTitle {
+    font-size: 36px;
+    font-weight: 700;
+    padding: 64px 277px 16px;
+    line-height: 54px;
+}
+
+.sewaDesc {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 350px 52px;
+    line-height: 20px;
+}
+
+.sewaButton {
+    background-color: #5CB85F;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    border-radius: 2px;
+    padding: 8px 12px;
+    margin-bottom: 64px;
+}
+
+@media only screen and (max-width: 360px) {
+    .sewaContainer {
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 40px;
+    }
+    .sewaTitle{
+        line-height: 36px;
+        font-size: 24px;
+        padding: 64px 58px 16px;
+        margin-bottom: 0;
+    }
+    .sewaDesc{
+        padding: 0 58px 32px;
+        margin-bottom: 0;
+    }
+}
